@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-end pr-44 pt-10 animate-pulse">
+        <div className="hidden lg:flex justify-end w-[90%] pr-32 pt-20 animate-pulse">
           <Icons name="scroll" />
         </div>
         <div className="md:mt-60 mt-14 flex md:flex-row flex-col md:items-center justify-between gap-28 lg:px-36 md:px-14 px-6">
@@ -107,30 +107,6 @@ export default function Home() {
         </div>
 
         {/* project */}
-        {/* <div className="my-52 lg:px-36 md:px-14 px-6 md:flex">
-          <div className="basis-1/2 md:flex flex-col justify-between">
-            <p className="font-[Syne] font-bold md:text-8xl text-6xl md:mb-0 mb-6">
-              Some of the good stuff
-            </p>
-            <div className="hidden md:flex flex-col gap-10">
-              <ProjectList />
-            </div>
-          </div>
-          <div className="basis-1/2 ">
-            <p className="font-[Manrope] font-semibold text-2xl mb-8">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium.
-            </p>
-            <p className="uppercase font-[Syne] font-bold text-2xl hidden md:flex items-center gap-2.5 w-[310px] hover:text-white relative text-hover ">
-              see more work
-              <span>
-                <ArrowRight />
-              </span>
-            </p>
-
-            <div className="mt-28 h-[568px] w-[530px] bg-[#242424]"></div>
-          </div>
-        </div> */}
         <div className="my-52 lg:px-36 md:px-14 px-6 ">
           <div className="flex md:flex-row flex-col">
             <p className="font-[Syne] font-bold md:text-8xl text-6xl md:mb-0 mb-6">
@@ -190,6 +166,7 @@ export default function Home() {
             })}
           </div>
         </div>
+
         {/* playground  */}
         <div className="py-20">
           <p className="font-[Syne] font-bold md:text-8xl text-6xl lg:px-36 md:px-14 px-6">
@@ -215,10 +192,10 @@ export default function Home() {
 
           <div className="">
             <ul className="flex gap-24 lg:px-36 md:px-14 px-6 text-[#999] font-[Syne] font-bold md:text-[72px] text-[40px] overflow-x-scroll scrollbar-hide">
-              <li className="hover:text-black">MUSIC</li>
-              <li className="hover:text-black">DOGS</li>
-              <li className="hover:text-black">WATCHES</li>
-              <li className="hover:text-black">PERFUMES</li>
+              <li className="hover:text-black cursor-pointer">MUSIC</li>
+              <li className="hover:text-black cursor-pointer">DOGS</li>
+              <li className="hover:text-black cursor-pointer">WATCHES</li>
+              <li className="hover:text-black cursor-pointer">PERFUMES</li>
             </ul>
           </div>
 

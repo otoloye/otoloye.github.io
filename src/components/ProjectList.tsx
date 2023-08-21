@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Icons } from "./icons";
 
 interface Props {
@@ -8,21 +8,22 @@ interface Props {
 }
 
 const ProjectList = ({ title, category, year }: Props) => {
-  const [showDetail, setShowDetail] = useState(false);
   return (
     <div className="flex">
-      <div className="border-b border-[#999] w-[452px]">
-        <p className="font-[Syne] font-semibold text-5xl mb-4 text-[#999]">
+      <div className=" w-[452px] cursor-default relative group">
+        <p className="border-b border-[#999] group-hover:border-none pb-4 font-[Syne] font-semibold text-5xl text-[#999] group-hover:text-black transform transition-all translate-y-0 group-hover:-translate-y-2 duration-500">
           {title}
         </p>
 
-        <p className=" font-[Manrope] font-extrabold text-base text-[#4F4F4F] uppercase my-2 flex justify-between ">
-          {category}
-          <span>{year}</span>
-          <span>
-            <Icons name="arrow-right-small" />
-          </span>
-        </p>
+        <div className="">
+          <p className=" font-[Manrope] font-extrabold text-base text-[#4F4F4F] uppercase my-2 flex justify-between transform transition-all duration-500 -translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 group-hover:border-b border-[#999]">
+            {category}
+            <span>{year}</span>
+            <span>
+              <Icons name="arrow-right-small" />
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );
