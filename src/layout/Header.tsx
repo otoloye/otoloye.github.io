@@ -33,9 +33,7 @@ const Header = () => {
           </span>
         </div>
 
-        <button
-          className="cursor-pointer"
-          onClick={() => setShowDropdown(!showDropdown)}>
+        <button onClick={() => setShowDropdown(!showDropdown)}>
           <Icons name="menu" />
         </button>
       </div>

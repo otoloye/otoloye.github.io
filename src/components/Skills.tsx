@@ -11,8 +11,8 @@ interface skillProps {
 const Skills = ({ title, text }: skillProps) => {
   return (
     <div className="relative">
-      <div className="my-14 w-[452px] h-[520px] overflow-">
-        <Image src={Rectangle} alt="" className=" inline-block" />
+      <div className="my-14 w-[452px] h-[520px]">
+        <Image src={Rectangle} alt="rectangle" className=" inline-block" />
       </div>
       <div className="absolute top-[20%] pl-14 max-w-[308px] h-[365px] flex flex-col justify-between">
         <p className="font-[Syne] font-bold text-4xl">{title}</p>

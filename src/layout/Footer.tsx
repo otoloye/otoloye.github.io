@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8">
-          <p className="font-[Syne] font-bold lg:text-[112px] text-[38px] leading-normal text-white mb-10 relative after:absolute after:w-full after:bg-white after:h-[2px] after:bottom-0 after:left-0 navlink">
+          <p className="font-[Syne] font-bold lg:text-[112px] text-[36px] leading-normal text-white mb-10 relative after:absolute after:w-full after:bg-white after:h-[2px] after:bottom-0 after:left-0 navlink">
             ot@wajusoft.com
           </p>
           <p className="flex md:justify-end gap-3 items-center font-bold text-white font-[Syne] text-2xl capitalize cursor-pointer relative after:absolute after:w-[15%] after:bg-white after:h-[2px] after:bottom-0 after:right-0 navlink">
