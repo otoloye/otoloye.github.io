@@ -174,7 +174,6 @@ const about = () => {
             );
           })}
         </div>
-        {/* <div className="w-[1096px] h-[387px] border border-black relative lg:block hidden folder"></div> */}
       </div>
 
       {/* Testimonies  */}

@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Rectangle from "../images/rectangle2.png";
-import { ArrowRight } from "react-feather";
 
 interface skillProps {
   title: string;
-  text?: string;
 }
 
-const AboutSkills = ({ title, text }: skillProps) => {
+const AboutSkills = ({ title }: skillProps) => {
   return (
     <div className="relative">
       <div className="my-14 lg:w-[1146px] lg:h-[265px]">

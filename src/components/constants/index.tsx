@@ -1,8 +1,8 @@
 export const dropdowns = [
-  { text: "Home", link: "/" },
-  { text: "About", link: "/about" },
-  { text: "Work", link: "" },
-  { text: "Playground", link: "" },
-  { text: "Journal", link: "" },
-  { text: "Contact", link: "" },
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Work", path: "#" },
+  { name: "Playground", path: "#" },
+  { name: "Journal", path: "#" },
+  { name: "Contact", path: "#" },
 ];
