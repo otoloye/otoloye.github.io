@@ -26,36 +26,31 @@ const Footer = () => {
         </div>
 
         <div className="lg:mt-3 mt-20 text-white flex md:flex-row flex-col gap-10 justify-between border-b border-[#4F4F4F] pb-8">
-          <p className="font-[Manrope] font-semibold text-2xl">
+          {/* <p className="font-[Manrope] font-semibold text-2xl">
             Otoloye Oyeniran <br />{" "}
-            <span className="text-[#676767] text-base">Software Developer</span>
-          </p>
+            <span className="text-[#676767] text-base">Software Engineer</span>
+          </p> */}
           <p className="font-[Manrope] font-semibold text-base text-[#676767]">
             Based in <br />{" "}
-            <span className="text-white">Philadelphia, USA</span>
+            <span className="text-white">Los Angeles, CA</span>
           </p>
           <div className="flex flex-wrap md:justify-center items-center">
-            <a href="#">
+            <a href="https://twitter.com/otoloye" target="_blank" rel="noopener noreferrer">
               <p className="mx-4 border-b hover:text-[#676767] hover:border-[#676767]">
                 Twitter
               </p>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/otoloye-oyeniran" target="_blank" rel="noopener noreferrer">
               <p className="mx-4 border-b hover:text-[#676767] hover:border-[#676767]">
                 LinkedIn
               </p>
             </a>
-            <a href="#">
+            <a href="https://github.com/otoloye" target="_blank" rel="noopener noreferrer">
               <p className="mx-4 border-b hover:text-[#676767] hover:border-[#676767]">
-                Instagram
+                Github
               </p>
             </a>
-            <a href="#">
-              <p className="mx-4 border-b hover:text-[#676767] hover:border-[#676767]">
-                Github{" "}
-              </p>
-            </a>
-            <a href="#">
+            <a href="https://medium.com/@otoloye" target="_blank" rel="noopener noreferrer">
               <p className="mx-4 border-b hover:text-[#676767] hover:border-[#676767]">
                 Medium
               </p>
@@ -73,11 +68,11 @@ const Footer = () => {
         </div>
 
         <div className="mt-16">
-          <p className="flex gap-4 uppercase text-[#676767]">
+          <p className="flex gap-4 text-[#676767]">
             <span>
               <Icons name="logo-white" />
             </span>
-            2023.All rights reserved
+            © {new Date().getFullYear()} Otoloye. All Rights Reserved
           </p>
         </div>
       </div>

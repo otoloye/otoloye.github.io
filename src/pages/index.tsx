@@ -61,11 +61,12 @@ export default function Home() {
                 <Icons name={`${onHover ? "chat" : "chat-fill"}`} />
                 <span>LET&#39;S CHAT</span>
               </p>
-
-              <p className="flex gap-3 items-center font-bold font-[Syne] text-2xl cursor-pointer relative after:absolute after:w-full after:bg-black after:h-[2px] after:bottom-0 after:left-0 navlink">
-                <span>Get Resume</span>
-                <Icons name="download" />
-              </p>
+              <a href="https://docs.google.com/document/d/1lxozqJrNAlOtmDte3VI3v5MDk-zIg6RXTyxM7amNuVE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <p className="flex gap-3 items-center font-bold font-[Syne] text-2xl cursor-pointer relative after:absolute after:w-full after:bg-black after:h-[2px] after:bottom-0 after:left-0 navlink">
+                  <span>Get Resume</span>
+                  <Icons name="download" />
+                </p>
+              </a>
             </div>
           </div>
           <div className="h-[326px] w-[208px] pt-10 lg:block hidden">
