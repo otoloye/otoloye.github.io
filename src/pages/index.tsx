@@ -49,7 +49,7 @@ export default function Home() {
             </p>
 
             <p className="font-[Manrope] font-semibold text-xl md:max-w-[400px] mt-8">
-              Hey there! The name's OT, and I'm stoked to have you here on my blog. Get ready to dive into a world of mine from tech and beyond. Here, you'll find useful resources and blogs on blockchain and other tech projects I’m currently working on
+              {`Hey there! The name's OT, and I'm stoked to have you here on my blog. Get ready to dive into a world of mine from tech and beyond. Here, you'll find useful resources and blogs on blockchain and other tech projects I’m currently working on`}
             </p>
 
             <div className="flex md:flex-row flex-col justify-between md:gap-0 gap-6 mt-14 w-3/4">
@@ -94,7 +94,7 @@ export default function Home() {
               Founder of Wajusoft
             </p>
             <p className="font-[Manrope] font-semibold text-xl max-w-[400px] my-8">
-              At Wajusoft, we know that staying ahead of the competition is crucial for business success and growth. As the captain, my team and I have navigated over 50 clients to the forefront of cutting-edge technology, giving them a winning edge against their rivals.
+              {`At Wajusoft, we know that staying ahead of the competition is crucial for business success and growth. As the captain, my team and I have navigated over 20 clients to the forefront of cutting-edge technology, giving them a winning edge against their rivals.`}
             </p>
             <p className="font-[Syne] font-bold md:text-2xl flex items-center gap-2.5 w-[409px] cursor-pointer hover:text-white relative text-hover">
               LEARN MORE ABOUT ME
@@ -113,7 +113,7 @@ export default function Home() {
             </p>
             <div>
               <p className="font-[Manrope] font-semibold text-2xl mb-8">
-                Here's an inside look at some of the voyages I've taken. I have developed a list of case studies and projects on which we have worked.
+                {`Here's an inside look at some of the voyages I've taken. I have developed a list of case studies and projects on which we have worked.`}
               </p>
               <p className="uppercase font-[Syne] font-bold text-2xl hidden md:flex items-center gap-2.5 w-[310px] hover:text-white relative text-hover ">
                 see more work
@@ -199,7 +199,7 @@ export default function Home() {
 
           <div className="px-32 mt-20 flex justify-between">
             <p className="basis-[40%] font-[Manrope] font-semibold text-lg my-8">
-              When I’m not commandeering the Wajusoft ship, I’m probably either discovering new music, thinking about watches or the blockchain technology. I also adore dogs! My favorite breed is the cane corso. Find out more
+              {`When I’m not commandeering the Wajusoft ship, I’m probably either discovering new music, thinking about watches or the blockchain technology. I also adore dogs! My favorite breed is the cane corso. Find out more`}
             </p>
             <div className="basis-1/3">
               <Image src={Dog} alt="hobby" className="" />
@@ -210,4 +210,3 @@ export default function Home() {
     </>
   );
 }
-
