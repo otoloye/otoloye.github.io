@@ -39,7 +39,7 @@ export default function Home() {
       <>
         <div className="flex items-end lg:px-36 md:px-14 px-6">
           <div className="">
-            <p className="font-[Syne] font-bold text-2xl">{`Hello, I'm `}</p>
+            <p className="font-[Syne] font-bold text-2xl">{`Hello, I'm`}</p>
             <p className="font-[Syne] font-bold md:text-9xl text-7xl">
               OT
             </p>
@@ -48,14 +48,14 @@ export default function Home() {
               Oyeniran
             </p> */}
 
-            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-8">
+            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-3">
               {`a Software Engineer with experience building full-stack web and mobile applications. 
-              I enjoy creating and architecting optimal solutions to problems.`}
+              I enjoy creating and architecting optimal solutions to real-world problems.`}
             </p>
 
-            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-8">
-              {`I'm the Founder of Wajusoft.com - a modern Engineering as a Service company focused on building performance, 
-              business-driven solutions for our clients.`}
+            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-6">
+              {`I'm the Founder of `}<a href="https://www.wajusoft.com" className="text-blue-500 hover:text-blue-700" target="_blank" rel="noopener noreferrer">wajusoft.com</a> - a modern Engineering as a Service company focused on building performance,
+              business-driven solutions.
             </p>
             <div className="flex md:flex-row flex-col justify-between md:gap-0 gap-6 mt-14 w-3/4">
               <a href="mailto:ot@wajusoft.com">
@@ -75,12 +75,12 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="h-[480px] w-[280px] pt-10 lg:block hidden">
+          <div className="h-[480px] w-[250px] pt-10 lg:block hidden">
             <Image src={Otoloye} alt="OT" className="ml-10" height={600} width={600} />
           </div>
         </div>
 
-        <div className="fixed lg:flex justify-end w-[100%] pr-32 pt-30 animate-pulse">
+        <div className="fixed hidden lg:flex justify-end w-[100%] pr-32 pt-30 animate-pulse">
           <Icons name="scroll" />
         </div>
         <div className="md:mt-60 mt-14 flex md:flex-row flex-col md:items-center justify-between gap-28 lg:px-36 md:px-14 px-6">
@@ -103,12 +103,17 @@ export default function Home() {
             <p className="font-[Manrope] font-semibold text-xl max-w-[400px] my-8">
               {`At Wajusoft, we know that staying ahead of the competition is crucial for business success and growth. As the captain, my team and I have navigated over 20 clients to the forefront of cutting-edge technology, giving them a winning edge against their rivals.`}
             </p>
-            <p className="font-[Syne] font-bold md:text-2xl flex items-center gap-2.5 w-[409px] cursor-pointer hover:text-white relative text-hover">
-              LEARN MORE ABOUT ME
-              <span>
-                <ArrowRight />
-              </span>
+            <p className="font-[Manrope] font-semibold text-xl max-w-[400px] my-8">
+              {`At Wajusoft, we know that staying ahead of the competition is crucial for business success and growth. As the captain, my team and I have navigated over 20 clients to the forefront of cutting-edge technology, giving them a winning edge against their rivals.`}
             </p>
+            <a href="https://wajusoft.com" target="_blank" rel="noopener noreferrer">
+              <p className="font-[Syne] font-bold md:text-2xl flex items-center gap-2.5 w-[409px] cursor-pointer hover:text-white relative text-hover">
+                LEARN MORE ABOUT WAJUSOFT
+                <span>
+                  <ArrowRight />
+                </span>
+              </p>
+            </a>
           </div>
         </div>
 
