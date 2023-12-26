@@ -39,27 +39,34 @@ export default function Home() {
       <>
         <div className="flex items-end lg:px-36 md:px-14 px-6">
           <div className="">
-            <p className="font-[Syne] font-bold text-2xl">Hello, I am </p>
+            <p className="font-[Syne] font-bold text-2xl">{`Hello, I'm `}</p>
             <p className="font-[Syne] font-bold md:text-9xl text-7xl">
-              Otoloye
+              OT
             </p>
 
-            <p className="font-[Syne] font-bold md:text-9xl text-7xl">
+            {/* <p className="font-[Syne] font-bold md:text-9xl text-7xl">
               Oyeniran
+            </p> */}
+
+            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-8">
+              {`a Software Engineer with experience building full-stack web and mobile applications. 
+              I enjoy creating and architecting optimal solutions to problems.`}
             </p>
 
-            <p className="font-[Manrope] font-semibold text-xl md:max-w-[400px] mt-8">
-              {`Hey there! The name's OT, and I'm stoked to have you here on my blog. Get ready to dive into a world of mine from tech and beyond. Here, you'll find useful resources and blogs on blockchain and other tech projects I’m currently working on`}
+            <p className="font-[Manrope] font-semibold text-xl md:max-w-[650px] mt-8">
+              {`I'm the Founder of Wajusoft.com - a modern Engineering as a Service company focused on building performance, 
+              business-driven solutions for our clients.`}
             </p>
-
             <div className="flex md:flex-row flex-col justify-between md:gap-0 gap-6 mt-14 w-3/4">
-              <p
-                className="flex gap-3 items-center font-bold font-[Syne] text-2xl cursor-pointer w-[224px] hover:text-white relative text-hover"
-                onMouseOver={() => setOnHover(!onHover)}
-                onMouseOut={() => setOnHover(false)}>
-                <Icons name={`${onHover ? "chat" : "chat-fill"}`} />
-                <span>LET&#39;S CHAT</span>
-              </p>
+              <a href="mailto:ot@wajusoft.com">
+                <p
+                  className="flex gap-3 items-center font-bold font-[Syne] text-2xl cursor-pointer w-[224px] hover:text-white relative text-hover"
+                  onMouseOver={() => setOnHover(!onHover)}
+                  onMouseOut={() => setOnHover(false)}>
+                  <Icons name={`${onHover ? "chat" : "chat-fill"}`} />
+                  <span>LET&#39;S CHAT</span>
+                </p>
+              </a>
               <a href="https://docs.google.com/document/d/1lxozqJrNAlOtmDte3VI3v5MDk-zIg6RXTyxM7amNuVE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <p className="flex gap-3 items-center font-bold font-[Syne] text-2xl cursor-pointer relative after:absolute after:w-full after:bg-black after:h-[2px] after:bottom-0 after:left-0 navlink">
                   <span>Get Resume</span>
@@ -68,12 +75,12 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="h-[326px] w-[208px] pt-10 lg:block hidden">
-            <Image src={Otoloye} alt="OT" className="ml-10" />
+          <div className="h-[480px] w-[280px] pt-10 lg:block hidden">
+            <Image src={Otoloye} alt="OT" className="ml-10" height={600} width={600} />
           </div>
         </div>
 
-        <div className="hidden lg:flex justify-end w-[90%] pr-32 pt-20 animate-pulse">
+        <div className="fixed lg:flex justify-end w-[100%] pr-32 pt-30 animate-pulse">
           <Icons name="scroll" />
         </div>
         <div className="md:mt-60 mt-14 flex md:flex-row flex-col md:items-center justify-between gap-28 lg:px-36 md:px-14 px-6">
